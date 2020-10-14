@@ -67,8 +67,8 @@ spec:
   selector:
     app: emailservice
   ports:
-  - name: grpc
-    port: 5000
+  - name: jjlb
+    port: 5002
     targetPort: 8080
 ---
 apiVersion: apps/v1
