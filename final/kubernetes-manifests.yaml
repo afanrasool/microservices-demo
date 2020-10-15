@@ -67,8 +67,8 @@ spec:
   selector:
     app: emailservice
   ports:
-  - name: jjlb
-    port: 5002
+  - name: port
+    port: 5000
     targetPort: 8080
 ---
 apiVersion: apps/v1
